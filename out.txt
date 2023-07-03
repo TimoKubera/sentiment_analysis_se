@@ -1,0 +1,45 @@
+Fitting 5 folds for each of 24 candidates, totalling 120 fits
+
+
+~~~ Logistic Regression ~~~
+Best parameter set: {'clf__C': 10.0, 'clf__penalty': 'l1', 'vect__ngram_range': (1, 1), 'vect__stop_words': None, 'vect__tokenizer': <function tokenizer at 0x127c3e560>}
+Best accuracy: 0.816
+Accuracy in test: 0.813
+Grid Scores:
+array([0.76589769, 0.70631896, 0.77372116, 0.70932798, 0.76609829,
+       0.72156469, 0.76268806, 0.72316951, 0.81043129, 0.70210632,
+       0.81604814, 0.70531595, 0.79578736, 0.71875627, 0.79899699,
+       0.72898696, 0.80581745, 0.68204614, 0.81384152, 0.68986961,
+       0.79939819, 0.7001003 , 0.80300903, 0.70792377])
+
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+
+~~~ Naives Bayes ~~~
+Best parameter set: {'clf__alpha': 1.0, 'vect__ngram_range': (1, 1), 'vect__stop_words': ['i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', "you're", "you've", "you'll", "you'd", 'your', 'yours', 'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', "she's", 'her', 'hers', 'herself', 'it', "it's", 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 'what', 'which', 'who', 'whom', 'this', 'that', "that'll", 'these', 'those', 'am', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a', 'an', 'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until', 'while', 'of', 'at', 'by', 'for', 'with', 'about', 'against', 'between', 'into', 'through', 'during', 'before', 'after', 'above', 'below', 'to', 'from', 'up', 'down', 'in', 'out', 'on', 'off', 'over', 'under', 'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where', 'why', 'how', 'all', 'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 'will', 'just', 'don', "don't", 'should', "should've", 'now', 'd', 'll', 'm', 'o', 're', 've', 'y', 'ain', 'aren', "aren't", 'couldn', "couldn't", 'didn', "didn't", 'doesn', "doesn't", 'hadn', "hadn't", 'hasn', "hasn't", 'haven', "haven't", 'isn', "isn't", 'ma', 'mightn', "mightn't", 'mustn', "mustn't", 'needn', "needn't", 'shan', "shan't", 'shouldn', "shouldn't", 'wasn', "wasn't", 'weren', "weren't", 'won', "won't", 'wouldn', "wouldn't"], 'vect__tokenizer': <function tokenizer at 0x127c3e560>}
+Best accuracy: 0.739
+Accuracy in test: 0.741
+Grid Scores:
+array([0.73941825, 0.69568706, 0.69127382, 0.67021063, 0.56228686,
+       0.56890672, 0.51915747, 0.5223671 , 0.42908726, 0.42948847,
+       0.42607823, 0.42728185])
+
+Fitting 5 folds for each of 60 candidates, totalling 300 fits
+
+~~~ SVM ~~~
+Best parameter set: {'clf__C': 10.0, 'clf__degree': 1, 'vect__ngram_range': (1, 1), 'vect__stop_words': None, 'vect__tokenizer': <function tokenizer at 0x127c3e560>}
+Best accuracy: 0.786
+Accuracy in test: 0.795
+Grid Scores:
+array([0.76429288, 0.71474423, 0.7667001 , 0.71875627, 0.76429288,
+       0.71474423, 0.7667001 , 0.71875627, 0.76429288, 0.71474423,
+       0.7667001 , 0.71875627, 0.76429288, 0.71474423, 0.7667001 ,
+       0.71875627, 0.76429288, 0.71474423, 0.7667001 , 0.71875627,
+       0.78455366, 0.72657974, 0.78555667, 0.73239719, 0.78455366,
+       0.72657974, 0.78555667, 0.73239719, 0.78455366, 0.72657974,
+       0.78555667, 0.73239719, 0.78455366, 0.72657974, 0.78555667,
+       0.73239719, 0.78455366, 0.72657974, 0.78555667, 0.73239719,
+       0.78455366, 0.72657974, 0.78555667, 0.73239719, 0.78455366,
+       0.72657974, 0.78555667, 0.73239719, 0.78455366, 0.72657974,
+       0.78555667, 0.73239719, 0.78455366, 0.72657974, 0.78555667,
+       0.73239719, 0.78455366, 0.72657974, 0.78555667, 0.73239719])
+
